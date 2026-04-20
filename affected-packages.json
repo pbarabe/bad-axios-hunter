@@ -1,0 +1,14 @@
+[
+  {
+    "package": "axios",
+    "version": "1.14.1"
+  },
+  {
+    "package": "axios",
+    "version": "0.30.4"
+  },
+  {
+    "package": "plain-crypto-js",
+    "version": "4.2.1"
+  }
+]
