@@ -4,15 +4,12 @@
 
 Searches for projects with dependencies that may have been compromised by malicious [axios / plain-crypto-js](https://content.govdelivery.com/accounts/USDHSCISA/bulletins/413c7a5).
 
-Uses [jq](https://jqlang.org/) to parse [affected-packages.json](./affected-packages.json) and then recursively `grep` each package name in lock files found in the named directory.
-
-The `affected-packages.json` file was created from the list of known, affected packages published by [socket.dev](https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages).
+Recursively finds package lock files and `grep`s for `axios` and `plain-crypto-js` the named directory and subdirectories.
 
 
 ## Prerequites ##
 
 - `bash`
-- `jq`
 
 
 ## Usage ##
