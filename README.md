@@ -18,8 +18,8 @@ The `affected-packages.json` file was created from the list of known, affected p
 ## Usage ##
 
 ```sh
-# Scan a named directory with package names extracted from affected-packages.json
-bad-axios.sh <directory> {affected-packages.json}
+# Scan a named directory
+bad-axios.sh <directory>
 
 # Test scan on files in the ./test/ folder
 bad-axios.sh -t
@@ -29,14 +29,14 @@ bad-axios.sh -t
 ## Modification log ##
 
 20 April 2025
-- Initial fork as 'bad-axios-hunter'
+- Forked and streamlined as 'bad-axios-hunter'
 
 24 Sep 2025
 - Refine logic to evaluate only package-lock.json, yarn.lock, and pnpm-lock.yaml files  
 - Replace affected-packages.json contents with more up-to-date list grabbed from https://socket.dev/
 
 23 Sep 2025
-- Initial creation (shai-hlud-hunter)
+- Initial creation as [shai-hlud-hunter](https://github.com/pbarabe/shaihulud-hunter)
 
 
 ## Additional Resources ##
