@@ -16,10 +16,10 @@ Recursively finds package lock files and `grep`s for `axios` and `plain-crypto-j
 
 ```sh
 # Scan a named directory
-bad-axios.sh <directory>
+bad-axios-hunter.sh <directory>
 
 # Test scan on files in the ./test/ folder
-bad-axios.sh -t
+bad-axios-hunter.sh -t
 ```
 
 
